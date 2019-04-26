@@ -1,21 +1,22 @@
-package com.vaadin.flow.component.incubator;
+package com.vaadin.componentfactory;
 
 /*
  * #%L
- * Vaadin PasswordStrength for Vaadin 10
+ * Password Strength for Vaadin 10
  * %%
- * Copyright (C) 2017 - 2018 Vaadin Ltd
+ * Copyright (C) 2017 - 2019 Vaadin Ltd
  * %%
  * This program is available under Commercial Vaadin Add-On License 3.0
  * (CVALv3).
- * 
+
  * See the file license.html distributed with this software for more
  * information about licensing.
- * 
+
  * You should have received a copy of the CVALv3 along with this program.
  * If not, see <http://vaadin.com/license/cval-3>.
  * #L%
  */
+
 
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.HtmlImport;
@@ -23,12 +24,12 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 import com.vaadin.flow.templatemodel.TemplateModel;
 
 /**
- * Server-side component for the <code>incubator-password-strength</code> element.
+ * Server-side component for the <code>vcf-password-strength</code> element.
  *
  * @author Vaadin Ltd
  */
-@Tag("incubator-password-strength")
-@HtmlImport("frontend://bower_components/incubator-password-strength/src/incubator-password-strength.html")
+@Tag("vcf-password-strength")
+@HtmlImport("frontend://bower_components/vcf-password-strength/src/vcf-password-strength.html")
 public class PasswordStrength extends PolymerTemplate<PasswordStrength.PasswordStrengthModel> {
 
     /**
@@ -50,7 +51,7 @@ public class PasswordStrength extends PolymerTemplate<PasswordStrength.PasswordS
     }
 
     /**
-     * This model binds properties between java(PasswordStrength) and polymer(incubator-password-strength.html)
+     * This model binds properties between java(PasswordStrength) and polymer(vcf-password-strength.html)
      */
     public interface PasswordStrengthModel extends TemplateModel {
         void setStrength(int count);

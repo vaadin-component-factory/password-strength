@@ -10,11 +10,12 @@
 		<relativePath />
 	</parent>
 
-	<artifactId>incubator-password-strength-flow-root</artifactId>
+	<groupId>com.vaadin.componentfactory</groupId>
+	<artifactId>password-strength-root</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 
-	<name>Incubator Password Strength Root</name>
+	<name>Password Strength Root</name>
 
 	<inceptionYear>2018</inceptionYear>
 	<organization>
@@ -33,8 +34,8 @@
 	</properties>
 
 	<modules>
-		<module>incubator-password-strength-flow</module>
-		<module>incubator-password-strength-flow-vaadincom-demo</module>
+		<module>password-strength</module>
+		<module>password-strength-demo</module>
 	</modules>
 	<repositories>
 		<repository>
@@ -58,9 +59,7 @@
 				<scope>import</scope>
 				<version>${vaadin.version}</version>
 			</dependency>
-
 		</dependencies>
-
 	</dependencyManagement>
 
 	<dependencies>

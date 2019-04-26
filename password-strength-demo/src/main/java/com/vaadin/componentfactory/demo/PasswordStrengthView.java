@@ -1,7 +1,7 @@
-package com.vaadin.flow.component.incubator.vaadincom;
+package com.vaadin.componentfactory.demo;
 
+import com.vaadin.componentfactory.PasswordStrength;
 import com.vaadin.flow.component.html.Div;
-import com.vaadin.flow.component.incubator.PasswordStrength;
 import com.vaadin.flow.component.textfield.PasswordField;
 import com.vaadin.flow.demo.DemoView;
 import com.vaadin.flow.router.Route;
@@ -22,8 +22,5 @@ public class PasswordStrengthView extends DemoView {
         });
 
         addCard("Basic Password Strength setting usage", passwordField, passwordStrength, text);
-
-
-
     }
 }

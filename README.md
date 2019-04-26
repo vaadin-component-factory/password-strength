@@ -1,9 +1,9 @@
-# Incubator Password Strength for Flow
+# Password Strength
 
-Incubator Password Strength for Flow is server-side component of [incubator-password-strength](https://github.com/vaadin/incubator-password-strength) web component for Vaadin 10. 
+Password Strength is server-side component of [vcf-password-strength](https://github.com/vaadin-component-factory/vcf-password-strength) web component for Vaadin 10. 
 It provides a strength indicator for a password field. 
 
-[<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/directory/component/vaadinincubator-password-strength)
+[<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
 
 ## Usage
 
@@ -24,7 +24,7 @@ passwordField.addValueChangeListener(changeEvent -> {
 ```  
 
 ## Demo
-To run demo go to `incubator-password-strength-flow-vaadincom-demo/` subfolder and run `mbn jetty:run`.
+To run demo go to `password-strength-demo/` subfolder and run `mvn jetty:run`.
 After server startup, you'll be able find demo at [http://localhost:8080/password-strength](http://localhost:8080/password-strength)
 
 ## Setting up for development:
@@ -32,7 +32,7 @@ After server startup, you'll be able find demo at [http://localhost:8080/passwor
 Clone the project in GitHub (or fork it if you plan on contributing)
 
 ```
-https://github.com/vaadin/incubator-password-strength-flow
+https://github.com/vaadin/password-strength
 ```
 
 To build and install the project into the local repository run 
@@ -43,5 +43,5 @@ To build and install the project into the local repository run
 
 This Add-on is distributed under [Commercial Vaadin Add-on License version 3](http://vaadin.com/license/cval-3) (CVALv3). For license terms, see LICENSE.txt.
 
-Incubator Password Strength is written by Vaadin Ltd.
+Password Strength is written by Vaadin Ltd.
 
