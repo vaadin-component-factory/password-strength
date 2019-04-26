@@ -1,9 +1,16 @@
-# Password Strength
+# Component Factory Password Strength for Vaadin 10+
 
-Password Strength is server-side component of [vcf-password-strength](https://github.com/vaadin-component-factory/vcf-password-strength) web component for Vaadin 10. 
+[Live Demo ↗](https://incubator.app.fi/password-strength-demo/password-strength)
+
+# What does the component do?
+
+Password Strength is server-side component of [&lt;vcf-password-strength&gt;](https://github.com/vaadin-component-factory/vcf-password-strength) web component for Vaadin 10. 
 It provides a strength indicator for a password field. 
 
 [<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
+
+### Vaadin Prime
+This component is part of Vaadin Prime. Still, open source you need to have a valid CVAL license in order to use it. Read more at: vaadin.com/pricing
 
 ## Usage
 
