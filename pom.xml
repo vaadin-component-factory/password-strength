@@ -13,7 +13,7 @@
 	<groupId>com.vaadin.componentfactory</groupId>
 	<artifactId>password-strength-root</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1.0</version>
 
 	<name>Password Strength Root</name>
 
