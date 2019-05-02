@@ -9,9 +9,6 @@ It provides a strength indicator for a password field.
 
 [<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
 
-### Vaadin Prime
-This component is available in of Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing
-
 ## Usage
 
 Strength can be set from 0 to 5. Strength represent number of blocks that would be filled with color and color of fill
@@ -45,6 +42,10 @@ https://github.com/vaadin/password-strength
 To build and install the project into the local repository run 
 
 ```mvn install ```
+
+
+## Vaadin Prime
+This component is available in of Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing
 
 ## License & Author
 
