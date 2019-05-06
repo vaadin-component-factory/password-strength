@@ -1,11 +1,9 @@
 # Component Factory Password Strength for Vaadin 10+
 
-[Live Demo ↗](https://incubator.app.fi/password-strength-demo/password-strength)
-
-# What does the component do?
-
 Password Strength is server-side component of [&lt;vcf-password-strength&gt;](https://github.com/vaadin-component-factory/vcf-password-strength) web component for Vaadin 10. 
 It provides a strength indicator for a password field. 
+
+[Live Demo ↗](https://incubator.app.fi/password-strength-demo/password-strength)
 
 [<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
 
@@ -27,9 +25,6 @@ passwordField.addValueChangeListener(changeEvent -> {
 });
 ```  
 
-## Demo
-To run demo go to `password-strength-demo/` subfolder and run `mvn jetty:run`.
-After server startup, you'll be able find demo at [http://localhost:8080/password-strength](http://localhost:8080/password-strength)
 
 ## Setting up for development:
 
@@ -44,10 +39,15 @@ To build and install the project into the local repository run
 ```mvn install ```
 
 
-## Vaadin Prime
+## Demo
+To run demo go to `password-strength-demo/` subfolder and run `mvn jetty:run`.
+After server startup, you'll be able find demo at [http://localhost:8080/password-strength](http://localhost:8080/password-strength)
+
+
+# Vaadin Prime
 This component is available in of Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing
 
-## License & Author
+# License & Author
 
 This Add-on is distributed under [Commercial Vaadin Add-on License version 3](http://vaadin.com/license/cval-3) (CVALv3). For license terms, see LICENSE.txt.
 
