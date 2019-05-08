@@ -23,6 +23,19 @@
 		<url>http://vaadin.com/</url>
 	</organization>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>vaadin-snapshots</id>
+			<name>Vaadin snapshot repository</name>
+			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>vaadin-addons</id>
+			<name>Vaadin add-ons repository</name>
+			<url>http://tools.vaadin.com/nexus/content/repositories/vaadin-addons</url>
+		</repository>
+	</distributionManagement>
+
 	<properties>
 		<vaadin.version>10.0.6</vaadin.version>
 		<flow.version>1.0.5</flow.version>
@@ -34,8 +47,8 @@
 	</properties>
 
 	<modules>
-		<module>password-strength</module>
-		<module>password-strength-demo</module>
+		<!--<module>password-strength</module>-->
+		<!--<module>password-strength-demo</module>-->
 	</modules>
 	<repositories>
 		<repository>
@@ -68,4 +81,11 @@
 			<artifactId>vaadin-core</artifactId>
 		</dependency>
 	</dependencies>
+
+	<licenses>
+		<license>
+			<name>CVALv3</name>
+			<url>https://vaadin.com/license/cval-3</url>
+		</license>
+	</licenses>
 </project>
