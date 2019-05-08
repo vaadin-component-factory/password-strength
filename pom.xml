@@ -40,8 +40,8 @@
 	</properties>
 
 	<modules>
-		<!--<module>password-strength</module>-->
-		<!--<module>password-strength-demo</module>-->
+		<module>password-strength</module>
+		<module>password-strength-demo</module>
 	</modules>
 	<repositories>
 		<repository>
