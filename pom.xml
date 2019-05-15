@@ -16,19 +16,6 @@
 		<url>http://vaadin.com/</url>
 	</organization>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>vaadin-snapshots</id>
-			<name>Vaadin snapshot repository</name>
-			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
-		</snapshotRepository>
-		<repository>
-			<id>vaadin-addons</id>
-			<name>Vaadin add-ons repository</name>
-			<url>http://tools.vaadin.com/nexus/content/repositories/vaadin-addons</url>
-		</repository>
-	</distributionManagement>
-
 	<properties>
 		<vaadin.version>10.0.6</vaadin.version>
 		<flow.version>1.0.5</flow.version>
@@ -43,37 +30,20 @@
 		<module>password-strength</module>
 		<module>password-strength-demo</module>
 	</modules>
+
 	<repositories>
 		<repository>
 			<id>vaadin-prereleases</id>
 			<url>http://maven.vaadin.com/vaadin-prereleases</url>
 		</repository>
 	</repositories>
+
 	<pluginRepositories>
 		<pluginRepository>
 			<id>vaadin-prereleases</id>
 			<url>http://maven.vaadin.com/vaadin-prereleases</url>
 		</pluginRepository>
 	</pluginRepositories>
-
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-bom</artifactId>
-				<type>pom</type>
-				<scope>import</scope>
-				<version>${vaadin.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
-	<dependencies>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-core</artifactId>
-		</dependency>
-	</dependencies>
 
 	<licenses>
 		<license>
