@@ -3,6 +3,7 @@ package com.vaadin.componentfactory.demo;
 import com.vaadin.componentfactory.PasswordStrength;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.textfield.PasswordField;
+import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.demo.DemoView;
 import com.vaadin.flow.router.Route;
 
@@ -16,6 +17,7 @@ public class PasswordStrengthView extends DemoView {
         PasswordStrength passwordStrength = new PasswordStrength();
         Div text = new Div();
 
+        passwordField.setValueChangeMode(ValueChangeMode.EAGER);
         passwordField.addValueChangeListener(changeEvent -> {
             passwordStrength.setStrength(changeEvent.getValue().length() / 3);
             text.setText("Password strength set to " + passwordStrength.getStrength());
