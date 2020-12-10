@@ -6,8 +6,10 @@ import com.vaadin.flow.component.textfield.PasswordField;
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.demo.DemoView;
 import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.RouteAlias;
 
 @Route("password-strength")
+@RouteAlias("")
 public class PasswordStrengthView extends DemoView {
 
     @Override
