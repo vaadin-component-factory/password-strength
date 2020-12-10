@@ -35,7 +35,7 @@ import com.vaadin.flow.templatemodel.TemplateModel;
  */
 @Tag("vcf-password-strength")
 @HtmlImport("frontend://bower_components/vcf-password-strength/src/vcf-password-strength.html")
-@NpmPackage(value = "@vaadin-component-factory/vcf-password-strength", version = "1.0.0")
+@NpmPackage(value = "@vaadin-component-factory/vcf-password-strength", version = "1.0.2")
 @JsModule("@vaadin-component-factory/vcf-password-strength/src/vcf-password-strength.js")
 public class PasswordStrength extends PolymerTemplate<PasswordStrength.PasswordStrengthModel> {
 
